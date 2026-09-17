@@ -29,6 +29,7 @@ Its role in the microservices architecture is to handle product data, again sepa
 
 The Store Front is responsible for displaying the products and allowing the user to place orders. It uses Vue.js because it is the frontend framework used to build the user interface. Alternatively we could have used other frontend stack too, like anything from React, Angular, or plain HTML, CSS, JavaScript.
 Its role in the architecture is to act as the part of the application that the user interacts with. It gets product data from Product Service and sends order requests to Order Service. It also handles everything separately from other services.
+
 ---
 
 ## Challenges and Learnings
